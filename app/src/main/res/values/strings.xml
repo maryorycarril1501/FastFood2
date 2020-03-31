@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">FastFood2</string>
+    <string name="imagenprincipalempresa">Empresa</string>
+    <string name="botoninicio1">SANDWICHES</string>
+    <string name="botoninicio2">SOBRE NOSOTROS</string>
+
+    <string name="imagensecundariaempresa">Empresa2</string>
+    <string name="textodescripcione">
+    Somos una empresa de la región, fundada en el año 2003.
+    Con más de 10 años de experiencia en el rubro.Ofrecemos un producto único, hecho al momento, a petición del cliente,
+    compartiendo con nuestros clientes lo mejor de nosotros.</string>
+
+
+    <string name="imagentercerasandwich">img3</string>
+    <string name="textonombre">texto1</string>
+    <string name="textodescrpcion">texto2</string>
+    <string name="textoprecio">texto3</string>
+
+    <string name="imagencuartasandwich">img4</string>
+
+
+
+
+
+</resources>

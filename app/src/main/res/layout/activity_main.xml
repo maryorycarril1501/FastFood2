@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#e3f2fd"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingTop="50dp"
+    android:paddingRight="15dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imagenprincipal"
+        android:layout_width="388dp"
+        android:layout_height="450dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/imagenprincipalempresa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoempresa" />
+
+    <Button
+        android:id="@+id/boton1"
+        android:text="@string/botoninicio1"
+        android:onClick="PantallaSandwiches"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:background="#BCC5F1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagenprincipal" />
+
+    <Button
+        android:id="@+id/boton2"
+        android:text="@string/botoninicio2"
+        android:onClick="PantallaSobreNosotros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:background="#BCC5F1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boton1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
